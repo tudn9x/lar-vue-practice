@@ -1,0 +1,8 @@
+172.31.0.1 - - [06/Sep/2019:07:48:37 +0000] "GET / HTTP/1.1" 500 10335 "http://local.dc/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36"
+172.31.0.1 - - [06/Sep/2019:07:48:37 +0000] "GET /svg/500.svg HTTP/1.1" 404 2638 "http://local.dc/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36"
+172.31.0.1 - - [06/Sep/2019:07:50:43 +0000] "GET / HTTP/1.1" 500 439124 "http://local.dc/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36"
+172.31.0.1 - - [06/Sep/2019:07:51:17 +0000] "GET / HTTP/1.1" 200 805 "http://local.dc/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36"
+172.31.0.1 - - [06/Sep/2019:07:51:19 +0000] "GET / HTTP/1.1" 200 805 "http://local.dc/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36"
+172.31.0.1 - - [06/Sep/2019:07:51:33 +0000] "GET / HTTP/1.1" 200 805 "http://local.dc/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36"
+172.31.0.1 - - [06/Sep/2019:07:54:20 +0000] "GET / HTTP/1.1" 200 805 "http://local.dc/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36"
+172.31.0.1 - - [06/Sep/2019:07:54:24 +0000] "GET / HTTP/1.1" 200 805 "http://local.dc/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36"

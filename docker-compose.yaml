@@ -1,0 +1,31 @@
+version: '3'
+services:
+  web:
+    container_name: ${container_web_name}
+    build:
+      dockerfile: Dockerfile
+      context: custom-fpm
+    ports:
+      - "80:80"
+    volumes:
+      - "./custom-fpm/nginxconfig:/etc/nginx/nginxconfig"
+      - "./custom-fpm/nginx.conf:/etc/nginx/nginx.conf" # config nginx for php
+#      - "./custom-fpm/nginx-m1.conf:/etc/nginx/nginx.conf" # config nginx for magento 1
+#      - "./custom-fpm/nginx-m2.conf:/etc/nginx/nginx.conf" # config nginx for magento 2
+      # - "./custom-fpm/php.ini:/etc/php/7.0/fpm/php.ini"
+      - "./custom-fpm/php.ini:/etc/php/7.1/fpm/php.ini"
+#      - "./custom-fpm/cacert.pem:/usr/lib/ssl/cert.pem"
+      - "./custom-fpm/phpmyadmin:/var/www/public/phpmyadmin"
+      - "./custom-fpm/log:/var/log/nginx"
+      - "./pub:/var/www/public"
+  mysql:
+    container_name: ${container_mysql_name}
+    image: mariadb:10.2
+    environment:
+      - MYSQL_ROOT_PASSWORD=root
+      - MYSQL_DATABASE=${database_name}
+      - MYSQL_USER=${database_name}
+      - MYSQL_PASSWORD=${database_name}
+#    volumes:
+#      - "./custom-fpm/data/magento:/var/lib/mysql/magento"
+#      - "./custom-fpm/mysql-m2.cnf:/etc/mysql/conf.d/mysql-m2.cnf"

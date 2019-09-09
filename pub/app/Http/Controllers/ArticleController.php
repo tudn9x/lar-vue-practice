@@ -14,7 +14,7 @@ class ArticleController extends Controller
      *
      * @return \Illuminate\Http\Response
      */
-    public function index()
+    public function index(Request $request)
     {
         // Get articles
         $articles = Article::orderBy('created_at', 'desc')->paginate(5);

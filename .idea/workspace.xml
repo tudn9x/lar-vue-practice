@@ -2,15 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c04d418e-db76-43c4-b46a-942a0c3aba14" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/php-docker-settings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/custom-fpm/log/access.log" beforeDir="false" afterPath="$PROJECT_DIR$/custom-fpm/log/access.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/custom-fpm/log/error.log" beforeDir="false" afterPath="$PROJECT_DIR$/custom-fpm/log/error.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/custom-fpm/nginx.conf" beforeDir="false" afterPath="$PROJECT_DIR$/custom-fpm/nginx.conf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pub/app/Http/Controllers/ArticleController.php" beforeDir="false" afterPath="$PROJECT_DIR$/pub/app/Http/Controllers/ArticleController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pub/public/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/pub/public/js/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pub/resources/js/components/Articles.vue" beforeDir="false" afterPath="$PROJECT_DIR$/pub/resources/js/components/Articles.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pub/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/pub/.gitignore" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -53,7 +46,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pub/app/Http/Controllers/ArticleController.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="195">
@@ -68,8 +61,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pub/resources/js/components/Articles.vue">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="435">
-              <caret line="56" selection-start-line="56" selection-end-line="56" />
+            <state relative-caret-position="90">
+              <caret line="6" column="78" lean-forward="true" selection-start-line="6" selection-start-column="78" selection-end-line="6" selection-end-column="78" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/pub/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="10" column="8" selection-start-line="10" selection-start-column="8" selection-end-line="10" selection-end-column="8" />
             </state>
           </provider>
         </entry>
@@ -98,7 +100,6 @@
         <option value="$PROJECT_DIR$/pub/routes/api.php" />
         <option value="&lt;c14cc6f6-8136-4848-afa2-465dabd8f88e&gt;/.env" />
         <option value="$PROJECT_DIR$/pub/package.json" />
-        <option value="$PROJECT_DIR$/pub/.gitignore" />
         <option value="$PROJECT_DIR$/pub/resources/views/welcome.blade.php" />
         <option value="$PROJECT_DIR$/pub/resources/js/app.js" />
         <option value="$PROJECT_DIR$/pub/resources/js/components/Navbar.vue" />
@@ -111,6 +112,7 @@
         <option value="$PROJECT_DIR$/pub/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Builder.php" />
         <option value="$PROJECT_DIR$/custom-fpm/nginx.conf" />
         <option value="$PROJECT_DIR$/pub/app/Http/Controllers/ArticleController.php" />
+        <option value="$PROJECT_DIR$/pub/.gitignore" />
       </list>
     </option>
   </component>
@@ -245,7 +247,7 @@
             <path>
               <item name="laravel" type="b2602c69:ProjectViewProjectNode" />
               <item name="laravel" type="462c0819:PsiDirectoryNode" />
-              <item name="custom-fpm" type="462c0819:PsiDirectoryNode" />
+              <item name="pub" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -428,13 +430,6 @@
     <entry file="file://$PROJECT_DIR$/pub/resources/js/components/ExampleComponent.vue">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/pub/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="8" selection-start-line="10" selection-start-column="8" selection-end-line="10" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pub/resources/views/welcome.blade.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
@@ -556,13 +551,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pub/resources/js/components/Articles.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="56" selection-start-line="56" selection-end-line="56" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pub/app/Http/Controllers/ArticleController.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="195">
@@ -570,6 +558,20 @@
           <folding>
             <element signature="e#40#68#0#PHP" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pub/resources/js/components/Articles.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="78" lean-forward="true" selection-start-line="6" selection-start-column="78" selection-end-line="6" selection-end-column="78" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pub/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="8" selection-start-line="10" selection-start-column="8" selection-end-line="10" selection-end-column="8" />
         </state>
       </provider>
     </entry>

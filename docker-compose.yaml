@@ -15,7 +15,7 @@ services:
       # - "./custom-fpm/php.ini:/etc/php/7.0/fpm/php.ini"
       - "./custom-fpm/php.ini:/etc/php/7.1/fpm/php.ini"
 #      - "./custom-fpm/cacert.pem:/usr/lib/ssl/cert.pem"
-      - "./custom-fpm/phpmyadmin:/var/www/public/phpmyadmin"
+#      - "./custom-fpm/phpmyadmin:/var/www/public/phpmyadmin"
       - "./custom-fpm/log:/var/log/nginx"
       - "./pub:/var/www/public"
   mysql:

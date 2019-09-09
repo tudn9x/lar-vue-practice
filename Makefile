@@ -25,8 +25,8 @@ go_run:
 
 chmod:
 	@echo "Update permission"
-	@#sudo chmod -R 777 ./ #find . -type f -exec chmod -c 644 {} \; && sudo find . -type d -exec chmod -c 755 {} \;
-	@sudo chmod -R 755 ./ && sudo chmod -R 777 ./magento/var ./magento/pub ./magento/app/etc ./magento/generated
+	@sudo chmod -R 777 ./ #find . -type f -exec chmod -c 644 {} \; && sudo find . -type d -exec chmod -c 755 {} \;
+	@#sudo chmod -R 755 ./ && sudo chmod -R 777 ./magento/var ./magento/pub ./magento/app/etc ./magento/generated
 
 upg:
 	@echo "Setup Upgrade"

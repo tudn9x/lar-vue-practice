@@ -2,8 +2,47 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c04d418e-db76-43c4-b46a-942a0c3aba14" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/deployment.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/webServers.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pub/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/pub/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/custom-fpm/log/access.log" beforeDir="false" afterPath="$PROJECT_DIR$/custom-fpm/log/access.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/custom-fpm/nginx.conf" beforeDir="false" afterPath="$PROJECT_DIR$/custom-fpm/nginx.conf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pub/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/pub/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pub/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/pub/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pub/public/css/app.css" beforeDir="false" afterPath="$PROJECT_DIR$/pub/public/css/app.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pub/public/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/pub/public/js/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pub/resources/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/pub/resources/js/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pub/resources/views/welcome.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/pub/resources/views/welcome.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/setup-2.0.1.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/setup-2.0.1/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/setup-2.0.1/.scrutinizer.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/setup-2.0.1/.travis.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/setup-2.0.1/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/setup-2.0.1/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/setup-2.0.1/composer.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/setup-2.0.1/phpunit.xml.dist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/setup-2.0.1/src/Application.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/setup-2.0.1/src/Application/BridgeInterface.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/setup-2.0.1/src/Command/Page/Export.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/setup-2.0.1/src/Command/Page/Import.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/setup-2.0.1/src/Domain/Page/Page.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/setup-2.0.1/src/Domain/Page/PageInterface.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/setup-2.0.1/src/Domain/Page/PageRepositoryInterface.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/setup-2.0.1/src/Service/Page/ExporterInterface.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/setup-2.0.1/src/Service/Page/ImporterInterface.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/setup-2.0.1/src/Service/Page/JsonFilesystemExporter.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/setup-2.0.1/src/Service/Page/JsonFilesystemImporter.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/setup-2.0.1/tests/Domain/Page/PageTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/setup-mage2-2.0.0.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/setup-mage2-2.0.0/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/setup-mage2-2.0.0/Application/Bridge.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/setup-mage2-2.0.0/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/setup-mage2-2.0.0/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/setup-mage2-2.0.0/Repository/PageRepository.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/setup-mage2-2.0.0/bin/setup" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/setup-mage2-2.0.0/composer.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/setup-mage2-2.0.0/etc/module.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/setup-mage2-2.0.0/registration.php" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -20,52 +59,28 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pub/app/Http/Controllers/ArticleController.php">
+        <entry file="file://$PROJECT_DIR$/pub/resources/js/app.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="455">
-              <caret line="73" selection-start-line="73" selection-end-line="73" />
-              <folding>
-                <element signature="e#40#68#0#PHP" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pub/routes/api.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="320">
-              <caret line="26" column="16" lean-forward="true" selection-start-line="26" selection-start-column="16" selection-end-line="26" selection-end-column="16" />
+            <state relative-caret-position="90">
+              <caret line="12" column="27" lean-forward="true" selection-start-line="12" selection-start-column="27" selection-end-line="12" selection-end-column="27" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/pub/.gitignore">
+        <entry file="file://$PROJECT_DIR$/pub/resources/views/welcome.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="10" column="1" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
+            <state relative-caret-position="120">
+              <caret line="8" column="66" selection-start-line="8" selection-start-column="66" selection-end-line="8" selection-end-column="66" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pub/app/Providers/AppServiceProvider.php">
+        <entry file="file://$PROJECT_DIR$/pub/resources/js/components/Articles.vue">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" column="44" selection-start-line="6" selection-start-column="44" selection-end-line="6" selection-end-column="44" />
-              <folding>
-                <element signature="e#33#72#0#PHP" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pub/app/Http/Resources/Article.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="435">
-              <caret line="29" column="54" selection-start-line="29" selection-start-column="54" selection-end-line="29" selection-end-column="54" />
+            <state relative-caret-position="60">
+              <caret line="4" column="11" lean-forward="true" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="11" />
             </state>
           </provider>
         </entry>
@@ -75,6 +90,7 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>phpmy</find>
+      <find>$base</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -84,7 +100,6 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/Makefile" />
-        <option value="$PROJECT_DIR$/custom-fpm/nginx.conf" />
         <option value="$PROJECT_DIR$/docker-compose.yaml" />
         <option value="$PROJECT_DIR$/pub/.env" />
         <option value="$PROJECT_DIR$/pub/database/migrations/2019_09_09_015113_create_articles_table.php" />
@@ -96,6 +111,12 @@
         <option value="$PROJECT_DIR$/pub/app/Http/Controllers/ArticleController.php" />
         <option value="$PROJECT_DIR$/pub/routes/api.php" />
         <option value="$PROJECT_DIR$/pub/.gitignore" />
+        <option value="&lt;c14cc6f6-8136-4848-afa2-465dabd8f88e&gt;/.env" />
+        <option value="$PROJECT_DIR$/pub/package.json" />
+        <option value="$PROJECT_DIR$/pub/resources/js/components/Articles.vue" />
+        <option value="$PROJECT_DIR$/pub/resources/js/app.js" />
+        <option value="$PROJECT_DIR$/custom-fpm/nginx.conf" />
+        <option value="$PROJECT_DIR$/pub/resources/views/welcome.blade.php" />
       </list>
     </option>
   </component>
@@ -225,64 +246,35 @@
               <item name="laravel" type="b2602c69:ProjectViewProjectNode" />
               <item name="laravel" type="462c0819:PsiDirectoryNode" />
               <item name="pub" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="public" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="laravel" type="b2602c69:ProjectViewProjectNode" />
               <item name="laravel" type="462c0819:PsiDirectoryNode" />
               <item name="pub" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="Http" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="laravel" type="b2602c69:ProjectViewProjectNode" />
               <item name="laravel" type="462c0819:PsiDirectoryNode" />
               <item name="pub" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="Http" type="462c0819:PsiDirectoryNode" />
-              <item name="Controllers" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="laravel" type="b2602c69:ProjectViewProjectNode" />
               <item name="laravel" type="462c0819:PsiDirectoryNode" />
               <item name="pub" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="Http" type="462c0819:PsiDirectoryNode" />
-              <item name="Resources" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="laravel" type="b2602c69:ProjectViewProjectNode" />
               <item name="laravel" type="462c0819:PsiDirectoryNode" />
               <item name="pub" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="Providers" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="laravel" type="b2602c69:ProjectViewProjectNode" />
-              <item name="laravel" type="462c0819:PsiDirectoryNode" />
-              <item name="pub" type="462c0819:PsiDirectoryNode" />
-              <item name="database" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="laravel" type="b2602c69:ProjectViewProjectNode" />
-              <item name="laravel" type="462c0819:PsiDirectoryNode" />
-              <item name="pub" type="462c0819:PsiDirectoryNode" />
-              <item name="database" type="462c0819:PsiDirectoryNode" />
-              <item name="factories" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="laravel" type="b2602c69:ProjectViewProjectNode" />
-              <item name="laravel" type="462c0819:PsiDirectoryNode" />
-              <item name="pub" type="462c0819:PsiDirectoryNode" />
-              <item name="database" type="462c0819:PsiDirectoryNode" />
-              <item name="migrations" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="laravel" type="b2602c69:ProjectViewProjectNode" />
-              <item name="laravel" type="462c0819:PsiDirectoryNode" />
-              <item name="pub" type="462c0819:PsiDirectoryNode" />
-              <item name="database" type="462c0819:PsiDirectoryNode" />
-              <item name="seeds" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -293,8 +285,13 @@
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/pub/public" />
+    <property name="WebServerToolWindowFactoryState" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.highlight.mappings" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.highlight.symlinks" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.date" value="false" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/pub" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
@@ -330,9 +327,10 @@
     <frame x="0" y="25" width="1920" height="1016" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24986821" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2529349" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="File Transfer" weight="0.32919955" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" />
@@ -342,8 +340,9 @@
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" />
       <window_info anchor="bottom" id="Version Control" order="8" />
-      <window_info anchor="bottom" id="Terminal" order="9" visible="true" weight="0.37429538" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.37429538" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="right" id="Remote Host" weight="0.2054429" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -353,19 +352,9 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/pub/public/js/app.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/pub/public/index.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-375" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pub/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="23" column="5" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
-        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pub/public/css/app.css">
@@ -385,24 +374,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/custom-fpm/nginx.conf">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="49" lean-forward="true" selection-start-line="48" selection-start-column="9" selection-end-line="49" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/docker-compose.yaml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
           <caret line="18" column="39" lean-forward="true" selection-start-line="18" selection-start-column="39" selection-end-line="18" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pub/.env">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="17" lean-forward="true" selection-start-line="16" selection-start-column="17" selection-end-line="16" selection-end-column="17" />
         </state>
       </provider>
     </entry>
@@ -417,13 +392,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
           <caret line="14" column="5" lean-forward="true" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pub/database/seeds/ArticlesTableSeeder.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
         </state>
       </provider>
     </entry>
@@ -461,17 +429,95 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pub/routes/api.php">
+    <entry file="file://$PROJECT_DIR$/pub/app/User.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="320">
-          <caret line="26" column="16" lean-forward="true" selection-start-line="26" selection-start-column="16" selection-end-line="26" selection-end-column="16" />
+        <state relative-caret-position="80">
+          <caret line="8" column="6" selection-start-line="8" selection-start-column="6" selection-end-line="8" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pub/app/Article.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="6" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pub/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="1" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
+        <state relative-caret-position="165">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pub/.env">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="13" lean-forward="true" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pub/.env.example">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="19" selection-start-line="8" selection-start-column="14" selection-end-line="8" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pub/database/seeds/ArticlesTableSeeder.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="6" selection-start-line="4" selection-start-column="6" selection-end-line="4" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pub/routes/api.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="48" lean-forward="true" selection-start-line="7" selection-start-column="48" selection-end-line="7" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pub/public/js/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1350" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pub/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="23" column="42" selection-start-line="23" selection-start-column="42" selection-end-line="23" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pub/resources/js/components/ExampleComponent.vue">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pub/resources/js/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="12" column="27" lean-forward="true" selection-start-line="12" selection-start-column="27" selection-end-line="12" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/custom-fpm/nginx.conf">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="825">
+          <caret line="92" column="23" lean-forward="true" selection-start-line="92" selection-start-column="23" selection-end-line="92" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pub/resources/js/components/Articles.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="11" lean-forward="true" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pub/resources/views/welcome.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="66" selection-start-line="8" selection-start-column="66" selection-end-line="8" selection-end-column="66" />
         </state>
       </provider>
     </entry>

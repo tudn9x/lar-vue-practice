@@ -2,47 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c04d418e-db76-43c4-b46a-942a0c3aba14" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/deployment.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/webServers.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/custom-fpm/log/access.log" beforeDir="false" afterPath="$PROJECT_DIR$/custom-fpm/log/access.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/custom-fpm/nginx.conf" beforeDir="false" afterPath="$PROJECT_DIR$/custom-fpm/nginx.conf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pub/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/pub/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pub/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/pub/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pub/public/css/app.css" beforeDir="false" afterPath="$PROJECT_DIR$/pub/public/css/app.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pub/public/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/pub/public/js/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pub/resources/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/pub/resources/js/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pub/resources/views/welcome.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/pub/resources/views/welcome.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resource/setup-2.0.1.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resource/setup-2.0.1/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resource/setup-2.0.1/.scrutinizer.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resource/setup-2.0.1/.travis.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resource/setup-2.0.1/LICENSE" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resource/setup-2.0.1/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resource/setup-2.0.1/composer.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resource/setup-2.0.1/phpunit.xml.dist" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resource/setup-2.0.1/src/Application.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resource/setup-2.0.1/src/Application/BridgeInterface.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resource/setup-2.0.1/src/Command/Page/Export.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resource/setup-2.0.1/src/Command/Page/Import.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resource/setup-2.0.1/src/Domain/Page/Page.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resource/setup-2.0.1/src/Domain/Page/PageInterface.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resource/setup-2.0.1/src/Domain/Page/PageRepositoryInterface.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resource/setup-2.0.1/src/Service/Page/ExporterInterface.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resource/setup-2.0.1/src/Service/Page/ImporterInterface.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resource/setup-2.0.1/src/Service/Page/JsonFilesystemExporter.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resource/setup-2.0.1/src/Service/Page/JsonFilesystemImporter.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resource/setup-2.0.1/tests/Domain/Page/PageTest.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resource/setup-mage2-2.0.0.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resource/setup-mage2-2.0.0/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resource/setup-mage2-2.0.0/Application/Bridge.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resource/setup-mage2-2.0.0/LICENSE" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resource/setup-mage2-2.0.0/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resource/setup-mage2-2.0.0/Repository/PageRepository.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resource/setup-mage2-2.0.0/bin/setup" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resource/setup-mage2-2.0.0/composer.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resource/setup-mage2-2.0.0/etc/module.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resource/setup-mage2-2.0.0/registration.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pub/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/pub/.gitignore" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -67,11 +27,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pub/resources/views/welcome.blade.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="120">
               <caret line="8" column="66" selection-start-line="8" selection-start-column="66" selection-end-line="8" selection-end-column="66" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/pub/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="10" column="8" selection-start-line="10" selection-start-column="8" selection-end-line="10" selection-end-column="8" />
             </state>
           </provider>
         </entry>
@@ -110,13 +79,13 @@
         <option value="$PROJECT_DIR$/pub/app/Http/Resources/Article.php" />
         <option value="$PROJECT_DIR$/pub/app/Http/Controllers/ArticleController.php" />
         <option value="$PROJECT_DIR$/pub/routes/api.php" />
-        <option value="$PROJECT_DIR$/pub/.gitignore" />
         <option value="&lt;c14cc6f6-8136-4848-afa2-465dabd8f88e&gt;/.env" />
         <option value="$PROJECT_DIR$/pub/package.json" />
         <option value="$PROJECT_DIR$/pub/resources/js/components/Articles.vue" />
         <option value="$PROJECT_DIR$/pub/resources/js/app.js" />
         <option value="$PROJECT_DIR$/custom-fpm/nginx.conf" />
         <option value="$PROJECT_DIR$/pub/resources/views/welcome.blade.php" />
+        <option value="$PROJECT_DIR$/pub/.gitignore" />
       </list>
     </option>
   </component>
@@ -327,7 +296,7 @@
     <frame x="0" y="25" width="1920" height="1016" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2529349" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2529349" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="File Transfer" weight="0.32919955" />
@@ -340,7 +309,7 @@
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" />
       <window_info anchor="bottom" id="Version Control" order="8" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.37429538" />
+      <window_info anchor="bottom" id="Terminal" order="9" visible="true" weight="0.37429538" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="right" id="Remote Host" weight="0.2054429" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -443,13 +412,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pub/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pub/.env">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
@@ -518,6 +480,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
           <caret line="8" column="66" selection-start-line="8" selection-start-column="66" selection-end-line="8" selection-end-column="66" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pub/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="8" selection-start-line="10" selection-start-column="8" selection-end-line="10" selection-end-column="8" />
         </state>
       </provider>
     </entry>

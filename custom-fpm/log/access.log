@@ -207,3 +207,6 @@
 172.31.0.1 - - [09/Sep/2019:03:59:18 +0000] "GET / HTTP/1.1" 200 430 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36"
 172.31.0.1 - - [09/Sep/2019:03:59:18 +0000] "GET /js/app.js HTTP/1.1" 200 1442596 "http://local.dc/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36"
 172.31.0.1 - - [09/Sep/2019:03:59:18 +0000] "GET /js/popper.js.map HTTP/1.1" 404 181 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36"
+172.31.0.1 - - [09/Sep/2019:04:04:25 +0000] "GET / HTTP/1.1" 200 838 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36"
+172.31.0.1 - - [09/Sep/2019:04:04:25 +0000] "GET /js/app.js HTTP/1.1" 200 1442596 "http://local.dc/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36"
+172.31.0.1 - - [09/Sep/2019:04:04:26 +0000] "GET /js/popper.js.map HTTP/1.1" 404 181 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36"
